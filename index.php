@@ -353,92 +353,12 @@
     </div>
     <!-- music_area end  -->
 
-    <!-- gallery -->
-    <div class="gallery_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title text-center mb-65">
-                        <h3>Image Galleries</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row grid">
-                    <div class="col-xl-5 col-lg-5 grid-item cat1 col-md-6">
-                        <div class="single-gallery mb-30">
-                                <div class="portfolio-img">
-                                        <img src="img/gallery/1.png" alt="">
-                                </div>
-                                <div class="gallery_hover">
-                                    <a  class="popup-image"  href="img/gallery/1.png" class="hover_inner">
-                                        <i class="ti-plus"></i>
-                                    </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-7 col-lg-7 grid-item cat3 cat4 col-md-6">
-                        <div class="single-gallery mb-30">
-                                <div class="portfolio-img">
-                                        <img src="img/gallery/2.png" alt="">
-                                </div>
-                                <div class="gallery_hover">
-                                        <a class="popup-image" href="img/gallery/2.png" class="hover_inner">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 grid-item cat4 col-md-6">
-                        <div class="single-gallery mb-30">
-                                <div class="portfolio-img">
-                                        <img src="img/gallery/3.png" alt="">
-                                </div>
-                                <div class="gallery_hover">
-                                        <a class="popup-image" href="img/gallery/3.png" class="hover_inner">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
-                        <div class="single-gallery mb-30">
-                            <div class="portfolio-img">
-                                    <img src="img/gallery/4.png" alt="">
-                            </div>
-                            <div class="gallery_hover">
-                                    <a class="popup-image" href="img/gallery/4.png" class="hover_inner">
-                                        <i class="ti-plus"></i>
-                                    </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
-                        <div class="single-gallery mb-30">
-                            <div class="portfolio-img">
-                                    <img src="img/gallery/5.png" alt="">
-                            </div>
-                            <div class="gallery_hover">
-                                    <a class="popup-image" href="img/gallery/5.png" class="hover_inner">
-                                        <i class="ti-plus"></i>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-    <!--/ gallery -->
 
     <!-- contact_rsvp -->
-    <div class="contact_rsvp">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="text text-center">
-                        <h3>Contact Me</h3>
-                        <a class="boxed-btn3" href="contact.html">Contact Me</a>
-                    </div>
-                </div>
+    <div class="">
+        <div class="">
+            <div class="">
+
             </div>
         </div>
     </div>
@@ -452,12 +372,15 @@
                     <div class="col-xl-6 col-md-6">
                             <div class="footer_widget">
                                     <h3 class="footer_title">
-                                            Services
+                                            Feedback
+                                    </h3>
+                                    <h3 class="footer_podaj">
+                                            Podaj maila, a napiszę do Ciebie
                                     </h3>
                                 <div class="subscribe-from">
-                                        <form action="#">
-                                                <input type="text" placeholder="Enter your mail">
-                                                <button type="submit" >Subscribe</button>
+                                        <form action="index.php" method="post">
+                                                <input type="text" name="feedback" placeholder="Enter your mail">
+                                                <button type="submit" >Wyślij</button>
                                             </form>
                                 </div>
                                 <p class="sub_text">Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>

@@ -2970,7 +2970,7 @@ h3 {
   background: transparent;
   border: navajowhite;
   color: #fff;
-  border-bottom: 1px solid #334A60;
+  border-bottom: 1px solid #650D88;
   padding: 15px 0;
 }
 
@@ -7325,5 +7325,10 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }
-
+h3.footer_podaj
+{
+  font-size: 20px;
+  color: #808E9C;
+  font-weight: 400;
+}
 /*# sourceMappingURL=style.css.map */
