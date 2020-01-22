@@ -2,7 +2,7 @@ Thank you for using our template!
 
 git add ścieżka_pliku               // dodaje plik do lokalnego commita
 git commit -m "Wiadomość commita"   // ustala commit do danej zmiany
-git push                            // wysyła na zdalne repozytorium
+git push origin master              // wysyła na zdalne repozytorium
 
 git status                          // pokazuje status zmodyfikowanych plików
 git diff                            // pokazuje zmiany dokonane na plikach
