@@ -62,6 +62,7 @@
                                                 </ul>
                                             </li>
                                             <li><a href="contact.html">Kontakt</a></li>
+                                            <li><a href="log.php">Zaloguj</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -286,7 +287,7 @@
                                 </div>
                                 <div class="col-xl-3 col-md-3">
                                     <div class="music_btn">
-                                            <a href="#" class="boxed-btn">buy albam</a>
+                                        <a href="#" class="boxed-btn">OCEŃ</a>
                                     </div>
                                 </div>
                     </div>
@@ -314,9 +315,9 @@
                                 </div>
                                 <div class="col-xl-3 col-md-3">
                                     <div class="music_btn">
-                                            <a href="#" class="boxed-btn">buy albam</a>
-                                    </div>
+                                        <a href="#" class="boxed-btn">OCEŃ</a>
                                 </div>
+                        </div>
                     </div>
                 </div>
 
@@ -342,7 +343,7 @@
                                 </div>
                                 <div class="col-xl-3 col-md-3">
                                     <div class="music_btn">
-                                            <a href="#" class="boxed-btn">buy albam</a>
+                                            <a href="#" class="boxed-btn">OCEŃ</a>
                                     </div>
                                 </div>
                     </div>
@@ -378,7 +379,7 @@
                                             Podaj maila, a napiszę do Ciebie
                                     </h3>
                                 <div class="subscribe-from">
-                                        <form action="index.php" method="post">
+                                        <form action="feedback.php" method="post">
                                                 <input type="text" name="feedback" placeholder="Enter your mail">
                                                 <button type="submit" >Wyślij</button>
                                             </form>

@@ -117,11 +117,10 @@
                     <?php
                         $feedback_email = $_POST['feedback'];
 
-                        if($feedback_email!=0) {
+                        if($feedback_email != NULL)
                             echo $feedback_email;
-                        }
                         else
-                            echo "0 e-mails in Feedback";
+                            echo "0 emails";
                     ?>
                 </h3>
             </div>
