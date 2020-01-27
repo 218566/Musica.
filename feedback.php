@@ -53,7 +53,7 @@
                                     <ul id="navigation">
                                         <li><a class="active" href="index.php">home</a></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li><a href="track.html">tracks</a></li>
+                                        <li><a href="track.php">tracks</a></li>
                                         <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">blog</a></li>

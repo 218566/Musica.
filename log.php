@@ -53,7 +53,7 @@
                                     <ul id="navigation">
                                         <li><a class="active" href="index.php">home</a></li>
                                         <li><a href="about.html">artyści</a></li>
-                                        <li><a href="track.html">utwory</a></li>
+                                        <li><a href="track.php">utwory</a></li>
                                         <li><a href="#">osoby <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">Karolina</a></li>
