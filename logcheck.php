@@ -22,13 +22,14 @@
                 $wiersz = $request->fetch_assoc();
                 $_SESSION['user'] = $wiersz['login'];
 
-
+                unset($_SESSION['wrong_pass']);
                 $request->free();
 
                 header('Location: track.php');
             }
             else {
-                header('Location: index.php');
+                $_SESSION['wrong_pass'] = 'błędny login lub hasło';
+                header('Location: log.php');
             }
         }
 

@@ -7335,4 +7335,17 @@ div.logowanie
 {
   justify-content: center;
 }
+input.grade_button
+{
+  background-color: #650D88; /* Green */
+  border: none;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 8px;
+  width: 50%;
+}
 /*# sourceMappingURL=style.css.map */

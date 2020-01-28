@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -109,8 +113,15 @@
                     <form action="logcheck.php" method="post">
                         <center>Login: <input type="text" name="login"></center><br>
                         <center>Hasło: <input type="password" name="password"></center><br>
-                        <center><input type="submit" value="Zaloguj" class="boxed-btn"> </center>
+
+                        <center><input type="submit" value="Zaloguj" class="boxed-btn"> <br></center>
                     </form>
+                        <?php
+                            if(isset($_SESSION['wrong_pass'])) {
+                                echo $_SESSION['wrong_pass'];
+                                unset($_SESSION['wrong_pass']);
+                            }
+                        ?>
                 </h3>
             </div>
         </div>

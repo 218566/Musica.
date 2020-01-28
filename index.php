@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -53,16 +57,16 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a class="active" href="index.php">home</a></li>
-                                            <li><a href="about.html">Artyści</a></li>
-                                            <li><a href="track.php">Utwory</a></li>
-                                            <li><a href="#">Osoby<i class="ti-angle-down"></i></a>
+                                            <li><a href="about.html">artyści</a></li>
+                                            <li><a href="track.php">utwory</a></li>
+                                            <li><a href="#">osoby<i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Karolina</a></li>
                                                     <li><a href="single-blog.html">Bartek</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Kontakt</a></li>
-                                            <li><a href="log.php">Zaloguj</a></li>
+                                            <li><a href="contact.html">kontakt</a></li>
+                                            <li><a href="log.php">zaloguj</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -129,13 +133,15 @@
                                 </div>
                                 <div class="col-xl-3 col-md-3">
                                     <div class="music_btn">
-                                            <a href="#" class="boxed-btn">***</a>
+                                        <form action="track_grade.php" method="post">
+                                            <input class="grade_button" type="submit" name="grade_3" value="***"><br><br>
                                     </div>
                                     <div class="music_btn">
-                                        <a href="#" class="boxed-btn">**</a>
+                                        <input class="grade_button" type="submit" name="grade_2" value="**"><br><br>
                                     </div>
                                     <div class="music_btn">
-                                        <a href="#" class="boxed-btn">*</a>
+                                        <input class="grade_button" type="submit" name="grade_1" value="*">
+                                        </form>
                                     </div>
                                 </div>
                     </div>
